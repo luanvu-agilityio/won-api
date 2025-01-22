@@ -1,0 +1,47 @@
+{
+  "invoices": [
+    {
+      "id": "INV-25-01-6999",
+      "name": "Easin Arafat",
+      "email": "easinarafat@gmail.com",
+      "date": "2025-01-07",
+      "address": "123 Bellinham",
+      "status": "Cancel"
+    },
+    {
+      "id": "INV-25-01-8192",
+      "name": "Jonathan M",
+      "email": "jonathanm@gmail.com",
+      "date": "2024-12-29",
+      "address": "123 Clause Ave",
+      "status": "Pending",
+      "favorite": false
+    }
+  ],
+  "products": [
+    {
+      "id": "cfde",
+      "name": "pc",
+      "rate": 2000,
+      "quantity": 1,
+      "amount": 2000,
+      "invoiceId": "INV-25-01-8192"
+    },
+    {
+      "id": "faa0",
+      "name": "tv",
+      "rate": 500,
+      "quantity": 2,
+      "amount": 1000,
+      "invoiceId": "INV-25-01-6999"
+    },
+    {
+      "id": "434d",
+      "name": "bag",
+      "rate": 22,
+      "quantity": 22,
+      "amount": 484,
+      "invoiceId": "INV-25-01-6999"
+    }
+  ]
+}
