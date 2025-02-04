@@ -19,7 +19,7 @@
       "date": "2024-12-29",
       "address": "123 nguyen van linh",
       "status": "Cancel",
-      "avatarSrc": "http://127.0.0.1:5500/src/assets/images/avatars/avatar-7.svg",
+      "avatarSrc": "./assets/images/avatars/avatar-7.svg",
       "favorite": true
     },
     {
