@@ -1,52 +1,98 @@
 {
   "invoices": [
     {
-      "id": "INV-25-01-6999",
-      "name": "Easin Arafat",
-      "email": "easinarafat@gmail.com",
-      "phoneNum": "(+1) 123 456 789",
-      "date": "2025-01-07",
-      "address": "123 Bellinham",
+      "id": "INV-1738597788010-f128b899",
+      "name": "Alex V",
+      "email": "alexv@gmail.com",
+      "phoneNum": "(+84) 123 456 789",
+      "date": "2025-01-28",
+      "address": "123 ngo quyen",
+      "status": "Complete",
+      "avatarSrc": "./assets/images/recipient-image.png",
+      "favorite": true
+    },
+    {
+      "id": "INV-1738597944664-b5ff6af2",
+      "name": "Ben T",
+      "email": "bent@gmail.com",
+      "phoneNum": "(+61) 222 333 444",
+      "date": "2024-12-29",
+      "address": "123 nguyen van linh",
       "status": "Cancel",
-      "avatarSrc": "https://javascript-training-luanvu.vercel.app/assets/images/avatars/avatar-10.svg",
+      "avatarSrc": "http://127.0.0.1:5500/src/assets/images/avatars/avatar-7.svg",
+      "favorite": true
+    },
+    {
+      "id": "INV-1738597999704-f79f37b4",
+      "name": "Arthur",
+      "email": "arthur@hotmail.com",
+      "phoneNum": "(+1) 456 789 258",
+      "date": "2025-01-27",
+      "address": "123 New York",
+      "status": "Complete",
+      "avatarSrc": "./assets/images/recipient-image.png",
       "favorite": false
     },
     {
-      "id": "INV-25-01-8192",
-      "name": "Jonathan M",
-      "email": "jonathanm@gmail.com",
-      "phoneNum": "(+1) 222 222 222",
-      "date": "2024-12-29",
-      "address": "123 Clause Ave",
-      "status": "Pending",
-      "avatarSrc": "https://javascript-training-luanvu.vercel.app/assets/images/avatars/avatar-7.svg",
+      "id": "INV-1738598070922-214a6d70",
+      "name": "Adele",
+      "email": "adele@yahoo.com",
+      "phoneNum": "(+1) 444 777 333",
+      "date": "2025-01-29",
+      "address": "123 Las Vegas",
+      "status": "Complete",
+      "avatarSrc": "./assets/images/recipient-image.png",
       "favorite": false
     }
   ],
   "products": [
     {
-      "id": "cfde",
-      "name": "pc",
-      "rate": 2000,
-      "quantity": 1,
-      "amount": 2000,
-      "invoiceId": "INV-25-01-8192"
-    },
-    {
-      "id": "faa0",
-      "name": "tv",
-      "rate": 500,
+      "id": "PRD-1738597831801-cf29a17d",
+      "name": "samsung S20",
+      "rate": 200,
       "quantity": 2,
-      "amount": 1000,
-      "invoiceId": "INV-25-01-6999"
+      "amount": 400,
+      "invoiceId": "INV-1738597788010-f128b899"
     },
     {
-      "id": "434d",
-      "name": "bag",
-      "rate": 22,
-      "quantity": 22,
-      "amount": 484,
-      "invoiceId": "INV-25-01-6999"
+      "id": "PRD-1738598067471-2503e45e",
+      "name": "Xbox",
+      "rate": 400,
+      "quantity": 2,
+      "amount": 800,
+      "invoiceId": "INV-1738597999704-f79f37b4"
+    },
+    {
+      "id": "PRD-1738598067471-54587d38",
+      "name": "PS5",
+      "rate": 1000,
+      "quantity": 2,
+      "amount": 2000,
+      "invoiceId": "INV-1738597999704-f79f37b4"
+    },
+    {
+      "id": "PRD-1738598141913-826425b2",
+      "name": "grocery",
+      "rate": 200,
+      "quantity": 2,
+      "amount": 400,
+      "invoiceId": "INV-1738598070922-214a6d70"
+    },
+    {
+      "id": "PRD-1738598141913-8f3d9649",
+      "name": "vacation",
+      "rate": 2000,
+      "quantity": 3,
+      "amount": 6000,
+      "invoiceId": "INV-1738598070922-214a6d70"
+    },
+    {
+      "id": "PRD-1738634293105-c62480ea",
+      "name": "Sony",
+      "rate": 2000,
+      "quantity": 2,
+      "amount": 4000,
+      "invoiceId": "INV-1738597944664-b5ff6af2"
     }
   ]
 }
